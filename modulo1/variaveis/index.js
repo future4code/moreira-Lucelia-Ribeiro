@@ -25,14 +25,24 @@ lançado a idade no const idade */
 
 /* console.log("Olá, meu nome é", nome, "tenho", idade, "de idade") */
 
+/* const fruta = "sim"
+console.log("Joana come fruta?", fruta)
 
+const ingles = "sim"
+console.log("Joana fala inglês?", ingles)
 
+const vacina = "sim"
+console.log("Joana foi vacinada?", vacina) */
 
+/* let a = 10
+let b = 25
 
+let c = a
+a = b
+b = c
 
-
-
-
+console.log("Novo valor de a é", a)
+console.log("Novo valor de b é", b) */
 
 
 
