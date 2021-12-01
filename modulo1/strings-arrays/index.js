@@ -92,7 +92,50 @@ console.log ("", comida1)
 console.log ("", comida2 = comidaMaisPreferida)
 console.log ("", comida3)
 console.log ("", comida4)
-console.log ("", comida5) */
+console.log ("", comida5) 
+
+////////////////
+
+3. Faça um programa, seguindo os passos:
+
+a) Crie um array vazio e guarde-o em uma variável, chamada `listaDeTarefas`
+b) Pergunte ao usuário 3 tarefas que ele precise realizar no dia e armazene-as, uma por uma, no array
+c) Imprima o array no console
+d) Peça ao usuário que digite o **índice** de uma tarefa que ele já realizou: 0, 1 ou 2 
+e) Remova da lista o item de índice que o usuário escolheu.
+f) Imprima o array no console */
+
+
+const listaDeTarefas = []
+const tarefa1 = prompt("Quais tarefas você precisa realizar hoje?")
+const tarefa2 = prompt("Quais tarefas você precisa realizar hoje?")
+const tarefa3 = prompt("Quais tarefas você precisa realizar hoje?")
+listaDeTarefas.push(tarefa1)
+listaDeTarefas.push(tarefa2)
+listaDeTarefas.push(tarefa3)
+console.log("Quais tarefas você precisa fazer hoje?", listaDeTarefas)
+
+const tarefaFeita = prompt("Quais tarefas foram realizada?")
+console.log("Quais tarefas foram realizada?", tarefaFeita)
+
+listaDeTarefas.splice(1, 2)
+console.log(listaDeTarefas)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
