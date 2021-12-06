@@ -132,5 +132,23 @@ objetos(objetoB)
 console.log(objetos(objetoA))
 console.log(objetos(objetoB)) */
 
+// 3.
 
+//a) Crie uma variável de escopo global que guarde um `array` vazio chamada `carrinho`
+//b) Crie três novos objetos que representem frutas de um sacolão. Eles devem ter as seguintes 
+//propriedades: nome (`string`) e disponibilidade (`boolean` - devem começar como `true`)
+//c) Crie uma função que receba um objeto fruta por parâmetro e coloque-a dentro do array de 
+//carrinho. Invoque essa função passando os três objetos criados.(push)
+//d) Imprima a variável carrinho e garanta que ela agora seja um array preenchido com três objetos
 
+/* const carrinho = []
+const frutas = [
+    {nome: "cereja", disponibilidade: true},
+    {nome1: "banana", disponibilidade: true},
+    {nome2: "morango", disponibilidade: false},
+]
+ const pedido = (fruta) => {
+     return carrinho.push(fruta)
+ }
+ pedido(frutas)
+ console.log(carrinho) */
